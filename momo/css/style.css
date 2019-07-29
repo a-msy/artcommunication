@@ -77,7 +77,8 @@ body {
   line-height: 24px;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: #6b6d6f;
+  color: white;
+  background:black;
 }
 
 body, p, h1, h2, h3, h4, h5, h6 {
@@ -178,7 +179,7 @@ iframe {
 
 .main_title h2 {
   font-size: 35px;
-  color: #424242;
+  color: rgb(3, 168, 31);
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -221,7 +222,7 @@ iframe {
 
 .main_title2 h2 {
   font-size: 30px;
-  color: #121921;
+  color: #fff;
   font-family: "Heebo", sans-serif;
   font-weight: 300;
   position: relative;
@@ -234,13 +235,13 @@ iframe {
   margin: auto;
   font-size: 14px;
   line-height: 26px;
-  color: #6b6d6f;
+  color: #fff;
   font-family: "Heebo", sans-serif;
   letter-spacing: .28px;
 }
 
 .gray h2 {
-  color: #4f4f4f;
+  color: white;
 }
 
 .gray p {
@@ -1980,7 +1981,7 @@ iframe {
   line-height: 47px;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  color: #6b6d6f;
+  color: #fff;
   display: block;
   border-radius: 23.5px;
   -webkit-box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.09);
@@ -2205,7 +2206,7 @@ iframe {
 
 .user_slider_inner .user_slider .item h4 {
   font-size: 24px;
-  color: #424242;
+  color: #7a7a7a;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   letter-spacing: .48px;
@@ -2245,7 +2246,6 @@ iframe {
 
 .app_screen_inner:before {
   content: "";
-  background: url(../img/screenshot/mobile-mockup2.png) no-repeat scroll center center;
   width: 501px;
   min-height: 611px;
   left: 50.40%;
@@ -2341,13 +2341,13 @@ iframe {
   height: 100%;
   width: 100%;
   background: rgba(227, 204, 252, 0.8);
-  background: -moz-linear-gradient(left, rgba(227, 204, 252, 0.8) 0%, rgba(143, 205, 252, 0.8) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(227, 204, 252, 0.8)), color-stop(100%, rgba(143, 205, 252, 0.8)));
-  background: -webkit-linear-gradient(left, rgba(227, 204, 252, 0.8) 0%, rgba(143, 205, 252, 0.8) 100%);
-  background: -o-linear-gradient(left, rgba(227, 204, 252, 0.8) 0%, rgba(143, 205, 252, 0.8) 100%);
-  background: -ms-linear-gradient(left, rgba(227, 204, 252, 0.8) 0%, rgba(143, 205, 252, 0.8) 100%);
-  background: -webkit-gradient(linear, left top, right top, from(rgba(227, 204, 252, 0.8)), to(rgba(143, 205, 252, 0.8)));
-  background: linear-gradient(to right, rgba(227, 204, 252, 0.8) 0%, rgba(143, 205, 252, 0.8) 100%);
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.144) 0%, #fff 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0.144) 0%), color-stop(100%, rgba(143, 205, 252, 0.8)));
+  background: -webkit-linear-gradient(left, #000 0%, #fff 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.144) 0%, #fff 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.144) 0%%, #fff 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.144) 0%), to(rgba(143, 205, 252, 0.8)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.144) 0%, #fff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3ccfc', endColorstr='#8fcdfc', GradientType=1 );
   z-index: -1;
 }
@@ -2417,10 +2417,10 @@ iframe {
 }
 
 .team_slider .team_slider_item .team_hover .team_hover_inner .team_inner_text ul li a i {
-  background: -webkit-linear-gradient(left, #dbcafc, #9eccfc);
+  background: -webkit-linear-gradient(left, #fff, #000);
   background: -webkit-gradient(linear, left top, right top, from(#dbcafc), to(#9eccfc));
-  background: -o-linear-gradient(left, #dbcafc, #9eccfc);
-  background: linear-gradient(left, #dbcafc, #9eccfc);
+  background: -o-linear-gradient(left, #fff, #000);
+  background: linear-gradient(left, #fff, #000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3126,7 +3126,7 @@ iframe {
 /* Choose Us Area css
 ============================================================================================ */
 .choose_us_area {
-  background: #EFF1FF;
+  background: black;
   min-height: 770px;
   position: relative;
   padding-top: 30px;
@@ -3346,7 +3346,7 @@ iframe {
 
 .satisfaction_item h4 {
   font-size: 18px;
-  color: #424242;
+  color: white;
   font-family: "Montserrat", sans-serif;
   letter-spacing: .36px;
   padding: 30px 0px 22px 0px;
@@ -3415,7 +3415,7 @@ iframe {
 /* Question Area css
 ============================================================================================ */
 .question_area {
-  background: #EFF1FF;
+  background: #000;
   padding: 100px 0px;
 }
 
@@ -4717,7 +4717,7 @@ iframe {
 ============================================================================================ */
 .video_area {
   position: relative;
-  background: #EFF1FF;
+  background: url(../img/discover-bg.jpg) no-repeat scroll center center;
   margin-top: 350px;
 }
 
@@ -13778,3 +13778,67 @@ iframe {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+neon {
+  display: flex;
+  height: 56px;
+  font-size: absolute;
+  color: #fff;
+  animation: neonBlur 16s infinite;
+  font-weight: 300;
+}
+neon > span:nth-child(1) {
+  opacity: .5;
+  font-weight: 800;
+}
+neon > span:nth-child(2) {
+  animation: neonBlink 5s infinite;
+}
+neon > span:nth-child(3) {
+  opacity: .4;
+}
+neon > span:nth-child(4) {
+  animation: neonBlink 2s infinite;
+}
+
+@keyframes neonBlink {
+  0% { opacity: 1; }
+  10% { opacity: .6; }
+  12% { opacity: 1; }
+  15% { opacity: .4; }
+  17% { opacity: 1; }
+  18% { opacity: .3; }
+  19% { opacity: 1; }
+  89% { opacity: 1; }
+  91% { opacity: .7; }
+  94% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes neonBlur {
+  0% { text-shadow: 0px 0px 25px red; }
+  50% { text-shadow: 0px 0px 75px red; filter: blur(0.5px) }
+  100% { text-shadow: 0px 0px 25px red; }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 1.4fr 1fr;
+  grid-template-rows: 0.9fr 0.6fr 1.5fr;
+  grid-template-areas: "s a ww rr" "v a g rr" "v e e ew";
+}
+
+.s { grid-area: s;overflow:hidden;margin: 5px; }
+
+.a { grid-area: a; overflow:hidden;margin: 5px;}
+
+.v { grid-area: v;overflow:hidden;margin: 5px; }
+
+.e { grid-area: e; overflow:hidden;margin: 5px;}
+
+.ww { grid-area: ww; overflow:hidden;margin: 5px;}
+
+.rr { grid-area: rr; overflow:hidden;margin: 5px;}
+
+.g { grid-area: g;overflow:hidden; margin: 5px;}
+
+.ew { grid-area: ew; overflow:hidden;margin: 5px;}
