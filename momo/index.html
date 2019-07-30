@@ -64,7 +64,7 @@
                         <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand">
-                            <input type="image" src="img/logo.png" href="./page02.html" id="button5" onClick= "yyy.src='img/black.png'">
+                            <input type="image" src="img/logo.png" onClick= "yyy.src='img/black.png'">
                         </a>
                     </div>
 
@@ -83,7 +83,7 @@
                     </nav>
                 </div>
             </div>
-            <img src=""name="yyy" class="zenmen">
+            <img src="" name="yyy" alt="" class="zenmen">
         </header>
         <!--================End Header Area =================-->
         
@@ -646,5 +646,15 @@ Copyright Masaya,IMADA&copy;<script>document.write(new Date().getFullYear());</s
         <script src="js/animsition.min.js"></script>
         
         <script src="js/theme.js"></script>
+        <script>
+$(document).ready(function () {
+  hsize = $(window).height();
+  $(".section1").css("height", hsize + "px");
+});
+$(window).resize(function () {
+  hsize = $(window).height();
+  $(".section1").css("height", hsize + "px");
+});
+</script>
     </body>
 </html>

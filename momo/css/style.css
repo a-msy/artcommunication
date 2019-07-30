@@ -566,7 +566,7 @@ iframe {
 
 .main_menu_area .navbar.navbar-default .navbar-header .navbar-brand {
   line-height: 84px;
-  padding: 0px;
+  margin-top: 10px;
 }
 
 .main_menu_area .navbar.navbar-default .navbar-header .navbar-brand img {
@@ -13862,5 +13862,6 @@ neon > span:nth-child(4) {
   z-index: 1000;
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100vh;
+  margin-top: -5px;
 }
