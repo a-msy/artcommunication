@@ -285,7 +285,7 @@
 		background: transparent !important;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #000;
+		background-color: #fff;
 		width: 30px;
 		margin-bottom: 5px;
 	}
@@ -393,7 +393,7 @@
 		width: 100%;
 	}
 	.video_area {
-		margin-top: 285px;
+		margin-top: 0px;
 	}
 	.video_area::before {
 		display: none;

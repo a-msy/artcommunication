@@ -529,8 +529,9 @@ iframe {
   top: 0px;
   left: 0px;
   width: 100%;
-  background: #fff;
+  background: #000;
   z-index: 30;
+  color:white;
 }
 
 .main_header_area + section, .main_header_area + div, .main_header_area + row {
@@ -540,10 +541,11 @@ iframe {
 .main_header_area.navbar_fixed {
   position: fixed;
   width: 100%;
-  top: -70px;
+  top: -75px;
   left: 0;
   right: 0;
-  background: #fff;
+  color:white;
+  background: #000;
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -582,7 +584,7 @@ iframe {
   font-size: 14px;
   line-height: 26px;
   padding: 0px 18px;
-  color: #424242;
+  color: white;
   text-transform: uppercase;
   display: inline-block;
   letter-spacing: .28px;
@@ -620,7 +622,7 @@ iframe {
   position: absolute;
   width: 97%;
   height: 92%;
-  background: #fff;
+  background: #000;
   z-index: -1;
   border-radius: 13px;
   left: 50%;
@@ -3292,6 +3294,7 @@ iframe {
 .satisfaction_area {
   clear: both;
   padding: 100px 0px 0px 0px;
+  background:white;
 }
 
 .satisfaction_area .main_title {
@@ -4718,7 +4721,7 @@ iframe {
 .video_area {
   position: relative;
   background: url(../img/discover-bg.jpg) no-repeat scroll center center;
-  margin-top: 350px;
+  margin-top: 0px;
 }
 
 .video_area:before {
@@ -13820,25 +13823,37 @@ neon > span:nth-child(4) {
   100% { text-shadow: 0px 0px 25px red; }
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 0.6fr 1.4fr 1fr;
-  grid-template-rows: 0.9fr 0.6fr 1.5fr;
-  grid-template-areas: "s a ww rr" "v a g rr" "v e e ew";
+.rowq {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-.s { grid-area: s;overflow:hidden;margin: 5px; }
+/* Create four equal columns that sits next to each other */
+.columnq {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
 
-.a { grid-area: a; overflow:hidden;margin: 5px;}
+.columnq img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 
-.v { grid-area: v;overflow:hidden;margin: 5px; }
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columnq {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
 
-.e { grid-area: e; overflow:hidden;margin: 5px;}
-
-.ww { grid-area: ww; overflow:hidden;margin: 5px;}
-
-.rr { grid-area: rr; overflow:hidden;margin: 5px;}
-
-.g { grid-area: g;overflow:hidden; margin: 5px;}
-
-.ew { grid-area: ew; overflow:hidden;margin: 5px;}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
