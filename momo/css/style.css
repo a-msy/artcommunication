@@ -3349,7 +3349,7 @@ iframe {
 
 .satisfaction_item h4 {
   font-size: 18px;
-  color: white;
+  color: black;
   font-family: "Montserrat", sans-serif;
   letter-spacing: .36px;
   padding: 30px 0px 22px 0px;
@@ -13856,4 +13856,11 @@ neon > span:nth-child(4) {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+.zenmen{
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  height: auto;
 }
